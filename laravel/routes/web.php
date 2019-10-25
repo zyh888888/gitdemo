@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('first',"FirstController@firstFn");
+Route::get('second',"FirstController@secondFn");
